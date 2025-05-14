@@ -47,13 +47,14 @@ int main (){
                 cout<<"======================================================"<<endl;
             }
                 else {
-
+            cout<<"=============================================================="<<endl;        
             cout<<"Usted ha seleccionado la Laptop Basica con un precio de $900"<<endl;
             cout<<"Su compra ha sido exitosa con el 20% de descuento aplicado!!!! "<<endl;
             desc = fondos  * (0.2); 
             restante = 900 - desc;
             total = 900 - restante;
             cout<<"Su saldo restante es de:$"<<total<<endl;
+            cout<<"=============================================================="<<endl;  
                 }
 
 
@@ -66,15 +67,17 @@ int main (){
             cin>>fondos;
             if(fondos < 600 ){
                 cout<<"Lo sentimos mucho, no te alcanza para ningun producto"<<endl;
+                cout<<"=============================================================="<<endl;  
             }
                 else {
-
+            cout<<"=============================================================="<<endl;         
             cout<<"Usted ha seleccionado la Table Estudiantil con un precio de $600"<<endl;
             cout<<"Su compra ha sido exitosa con el 20% de descuento aplicado!!!! "<<endl;
             desc = fondos  * (0.2); 
             restante = 600 - desc;
             total = 600 - restante;
             cout<<"Su saldo restante es de:$"<<total<<endl;
+            cout<<"=============================================================="<<endl;  
                 }
             break;
             case 3: 
@@ -83,15 +86,17 @@ int main (){
             cin>>fondos;
             if(fondos < 700 ){
                 cout<<"Lo sentimos mucho, no te alcanza para ningun producto"<<endl;
+                cout<<"=============================================================="<<endl;  
             }
                 else {
-
+            cout<<"=============================================================="<<endl;         
             cout<<"Usted ha seleccionado la Chromebook con un precio de $700"<<endl;
             cout<<"Su compra ha sido exitosa con el 20% de descuento aplicado!!!! "<<endl;
             desc = fondos  * (0.2); 
             restante = 700 - desc;
             total = 700 - restante;
             cout<<"Su saldo restante es de:$"<<total<<endl;
+            cout<<"=============================================================="<<endl;  
                 }
             break;
                 
@@ -128,6 +133,7 @@ int main (){
             cin>>fondos;
             if(fondos < 1500 ){
                 cout<<"Lo sentimos mucho, no te alcanza para ningun producto"<<endl;
+                cout<<"=============================================================="<<endl;  
             }
                 else {
             cout<<"=================================================="<<endl;
@@ -137,6 +143,7 @@ int main (){
             restante = 1500 - desc;
             total = 1500 - restante;
             cout<<"Su saldo restante es de:$"<<total<<endl;
+            cout<<"=============================================================="<<endl;  
                 }
 
 
@@ -148,15 +155,17 @@ int main (){
             cin>>fondos;
             if(fondos < 1200 ){
                 cout<<"Lo sentimos mucho, no te alcanza para ningun producto"<<endl;
+                cout<<"=============================================================="<<endl;  
             }
                 else {
-
+            cout<<"=============================================================="<<endl;          
             cout<<"Usted ha seleccionado la Table Estudiantil con un precio de $1200"<<endl;
             cout<<"Su compra ha sido exitosa con el 10% de descuento aplicado!!!! "<<endl;
             desc = fondos  * (0.1); 
             restante = 1200 - desc;
             total = 1200 - restante;
             cout<<"Su saldo restante es de:$"<<total<<endl;
+            cout<<"=============================================================="<<endl;  
                 }
             break;
             case 3: 
@@ -164,9 +173,10 @@ int main (){
             cin>>fondos;
             if(fondos < 2000 ){
                 cout<<"Lo sentimos mucho, no te alcanza para ningun producto"<<endl;
+                cout<<"=============================================================="<<endl;  
             }
                 else {
-
+            cout<<"=============================================================="<<endl;          
             cout<<"Usted ha seleccionado la Chromebook con un precio de $2000"<<endl;
             cout<<"Su compra ha sido exitosa con el 10% de descuento aplicado!!!! "<<endl;
             desc = fondos  * (0.1); 
@@ -178,6 +188,7 @@ int main (){
         
         default:
         cout<<"Por favor seleccionar un producto valido"<<endl;
+        cout<<"=============================================================="<<endl;  
             break;
             //Finalizamos Switch para Usuario de Profesionales
         }
